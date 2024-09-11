@@ -1,0 +1,116 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+  text-align: justify;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: #333;
+}
+.card-custom {
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mb-4{
+  margin-bottom: 0rem !important;
+}
+.card-custom img {
+  width: 100%;
+  height: auto;
+  border-bottom: 4px solid #007bff;
+}
+.card-body {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.card-title {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+.containerF{
+  padding: auto;
+  align-content: center;
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  font-size: 20px;
+  
+}
+.footer a {
+  color: #007bff;
+
+}
+@media (max-width: 768px) {
+  .card-custom {
+    margin-bottom: 1rem;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .card-text {
+    font-size: 0.875rem;
+  }
+}
+.img-fluid{
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+.nav-item{
+  color: #fff;
+  
+}
+.navbar{
+  padding:1%;
+}
+.row .col-sm-4 {
+  padding-left: 5px;  /* Reduce the padding between the cards */
+  padding-right: 5px; /* Reduce the padding between the cards */
+  margin-bottom: 0px; /* Optional: Reduce the bottom margin if needed */
+}
+.card {
+  margin-bottom: 10px; /* Optional: Control the space between rows if cards wrap */
+  height: 200px ;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1%;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Move the card up when hovered */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase the shadow effect on hover */
+}
+
+.img-fluid img{
+  height: 1500px;
+}
+.getInvolved{
+  color: black;
+  text-align: center;
+}
+#img2{
+  height: 50%;
+  border: 20px solid black;
+}
+.WIM{
+  height: 89%;
+}
+.text-center tcf{
+ padding: auto;
+}
